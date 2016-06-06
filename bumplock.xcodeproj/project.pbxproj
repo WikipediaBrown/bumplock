@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		7BD481561C4671EB009CCC22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD481551C4671EB009CCC22 /* AppDelegate.swift */; };
-		7BD481581C4671EB009CCC22 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7BD481571C4671EB009CCC22 /* GameScene.sks */; };
 		7BD4815A1C4671EB009CCC22 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD481591C4671EB009CCC22 /* GameScene.swift */; };
 		7BD4815C1C4671EB009CCC22 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4815B1C4671EB009CCC22 /* GameViewController.swift */; };
 		7BD4815F1C4671EB009CCC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4815D1C4671EB009CCC22 /* Main.storyboard */; };
 		7BD481611C4671EB009CCC22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD481601C4671EB009CCC22 /* Assets.xcassets */; };
 		7BD481641C4671EB009CCC22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD481621C4671EB009CCC22 /* LaunchScreen.storyboard */; };
+		7BD4816C1C467297009CCC22 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4816B1C467297009CCC22 /* iAd.framework */; };
+		7BD4816E1C4672D2009CCC22 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4816D1C4672D2009CCC22 /* Extensions.swift */; };
+		7BD481721C467858009CCC22 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD481711C467858009CCC22 /* MenuViewController.swift */; };
+		7BD481761C467E1B009CCC22 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD481741C467E1B009CCC22 /* Fabric.framework */; };
+		7BD481771C467E1B009CCC22 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD481751C467E1B009CCC22 /* Crashlytics.framework */; };
+		7BF46A6B1D056CB300AA1EF8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7BF46A6A1D056CB300AA1EF8 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7BD481521C4671EA009CCC22 /* bumplock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bumplock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD481551C4671EB009CCC22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BD481571C4671EB009CCC22 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		7BD481591C4671EB009CCC22 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		7BD4815B1C4671EB009CCC22 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7BD4815E1C4671EB009CCC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BD481601C4671EB009CCC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BD481631C4671EB009CCC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BD481651C4671EB009CCC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD4816B1C467297009CCC22 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7BD4816D1C4672D2009CCC22 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../Extensions.swift; sourceTree = "<group>"; };
+		7BD481711C467858009CCC22 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
+		7BD481741C467E1B009CCC22 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		7BD481751C467E1B009CCC22 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		7BF46A6A1D056CB300AA1EF8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD4816C1C467297009CCC22 /* iAd.framework in Frameworks */,
+				7BD481771C467E1B009CCC22 /* Crashlytics.framework in Frameworks */,
+				7BD481761C467E1B009CCC22 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 		7BD481491C4671EA009CCC22 = {
 			isa = PBXGroup;
 			children = (
+				7BF46A6A1D056CB300AA1EF8 /* .gitignore */,
+				7BD4816B1C467297009CCC22 /* iAd.framework */,
 				7BD481541C4671EB009CCC22 /* bumplock */,
 				7BD481531C4671EA009CCC22 /* Products */,
 			);
@@ -59,13 +74,16 @@
 			isa = PBXGroup;
 			children = (
 				7BD481551C4671EB009CCC22 /* AppDelegate.swift */,
-				7BD481571C4671EB009CCC22 /* GameScene.sks */,
 				7BD481591C4671EB009CCC22 /* GameScene.swift */,
+				7BD481711C467858009CCC22 /* MenuViewController.swift */,
 				7BD4815B1C4671EB009CCC22 /* GameViewController.swift */,
 				7BD4815D1C4671EB009CCC22 /* Main.storyboard */,
 				7BD481601C4671EB009CCC22 /* Assets.xcassets */,
 				7BD481621C4671EB009CCC22 /* LaunchScreen.storyboard */,
 				7BD481651C4671EB009CCC22 /* Info.plist */,
+				7BD4816D1C4672D2009CCC22 /* Extensions.swift */,
+				7BD481741C467E1B009CCC22 /* Fabric.framework */,
+				7BD481751C467E1B009CCC22 /* Crashlytics.framework */,
 			);
 			path = bumplock;
 			sourceTree = "<group>";
@@ -80,6 +98,7 @@
 				7BD4814E1C4671EA009CCC22 /* Sources */,
 				7BD4814F1C4671EA009CCC22 /* Frameworks */,
 				7BD481501C4671EA009CCC22 /* Resources */,
+				7BD481731C467E09009CCC22 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -102,6 +121,7 @@
 				TargetAttributes = {
 					7BD481511C4671EA009CCC22 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4AM5US9G8B;
 					};
 				};
 			};
@@ -128,7 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD481581C4671EB009CCC22 /* GameScene.sks in Resources */,
+				7BF46A6B1D056CB300AA1EF8 /* .gitignore in Resources */,
 				7BD481641C4671EB009CCC22 /* LaunchScreen.storyboard in Resources */,
 				7BD481611C4671EB009CCC22 /* Assets.xcassets in Resources */,
 				7BD4815F1C4671EB009CCC22 /* Main.storyboard in Resources */,
@@ -137,14 +157,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7BD481731C467E09009CCC22 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ad2e8636964759ca021b3e24db8951bf965e251f 874b85624b1c6cf99d8587faed818f69f8fa3016b8bc44dafa3107f02a34df18";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BD4814E1C4671EA009CCC22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7BD4815A1C4671EB009CCC22 /* GameScene.swift in Sources */,
+				7BD481721C467858009CCC22 /* MenuViewController.swift in Sources */,
 				7BD4815C1C4671EB009CCC22 /* GameViewController.swift in Sources */,
 				7BD481561C4671EB009CCC22 /* AppDelegate.swift in Sources */,
+				7BD4816E1C4672D2009CCC22 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +295,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = bumplock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perrisdavis.bumplock;
@@ -268,6 +311,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = bumplock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perrisdavis.bumplock;
@@ -294,6 +342,7 @@
 				7BD4816A1C4671EB009CCC22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
